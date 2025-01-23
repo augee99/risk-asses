@@ -1,0 +1,622 @@
+Starting
+[1m[95m# Agent:[00m [1m[92mSenior Credit Analyst[00m
+[95m## Task:[00m [92mConduct a comprehensive analysis of a provided credit report to identify key factors impacting the individual's creditworthiness and provide insights to inform decision-making. Evaluate the overall creditworthiness of the individual based on the analysis. Identify any potential risk factors that may impact creditworthiness.
+[00m
+
+
+[1m[95m# Agent:[00m [1m[92mSenior Credit Analyst[00m
+[95m## Thought:[00m [92mTo conduct a comprehensive analysis of the provided credit report and identify key factors impacting the individual's creditworthiness, I need to start by reading the content of the credit report. I'll use the PDFReaderTool to access this information.[00m
+[95m## Using tool:[00m [92mPDFReaderTool[00m
+[95m## Tool Input:[00m [92m
+"{\"query\": \"Please provide the full content of the credit report\"}"[00m
+[95m## Tool Output:[00m [92m
+Client Overview
+Name:
+SSN:
+Address:
+Name:
+SSN:
+Address:Sam Sample
+XXX-XX-9820  123
+Sample Street
+Dayton, OH 54321
+Pat Sample 
+XXX-XX-5714  1000
+Debtor2 dr.
+Medway , OH 12345Credit Score AnalysisPowered By
+Client Current ScoreNet Credit Score 
+Effect
+Sam Sample 560 630 +60¹
+Summary of Accounts with Balances
+Account TypeNumber of
+AccountsTotal Monthly 
+PaymentsTotal of Balances
+RemainingPast Due 
+AccountsPercentage of Past
+Due AccountsTotal Amounts
+Past Due
+Collection 3 $0 $6,899 3 100.00% $6,899
+Installment 10 $2,831 $17,673 2 20.00% $557
+Revolving 24 $2,171 $59,292 9 37.50% $13,724
+Totals 37 $5,002 $83,864 14 37.84% $21,180
+Alerts 2 Record(s)
+Alert Message Source Owner
+SSN MATCH: EXACT MATCH BETWEEN SSN ON INPUT AND SSN ON FILE TU
+This report includes information reported from*:
+* All information in this report sample is fictitious and used for example purposes only.
+Note: All information in this report sample is fictitious and used for example purposes only. Source represents who reported the specific account. (TU = TransUnion, EQ = Equifax, 
+EX = Experian, LN = LexisNexis).  For a full explanation of each category, see "How to read a tradeline" at the end of this report.
+Need assistance? Call us at 1-866-218-1003  (Monday - Friday, 8am - 8pm ET)Credit Report   Page 1 of 9
+© 2020 Stretto. All Rights ReservedCredit Report
+Prepared for  Sample Law Firm  
+Report Type: Sample Joint CR Report Number: 12345 Client Code: A12345 Reported Date: 03/19/20 30
+Pat Sample 680 725 +4512 Month Post-
+bankruptcy Credit ScoreAlerts 2 Record(s)
+Alert Message Source Owner
+SSN MATCH: EXACT MATCH BETWEEN SSN ON INPUT AND SSN ON FILE TU
+Address Variations 18 Record(s)
+Reported Address Date Reported Source Owner
+870 BEAR RIDGE TRL, Salmon Run, CO 457889125 01/2020 EX
+2331 HEATHCHASE DR, HILLIARD, OH 430267689 10/2013 EX
+3146 SILVIA CT, COLLARD, OH 448909463 06/2010 EX
+870 BEAR RIDGE TR, Salmon Run, CO 45788 03/30/2009 TU
+55 PINT BV, SHELBY, OH 44875 11/01/2002 TU
+14 RED AV, SHELBY, OH 44875 TU
+870 BEAR RIDGE TRL, Salmon Run, CO 45788 03/2020 EQ
+55 PINT BLVD APT 4, SHELBY, OH 44875 10/2019 EQ
+3146 SILVIA CT, COLLARD, OH 44890 05/2013 EQ
+870 BEAR RIDGE TRL, Salmon Run, CO 457889125 11/2019 EX
+60 DINT BLVD APT 4, SHELBY, OH 448751371 10/2008 EX
+Note: All information in this report sample is fictitious and used for example purposes only. Source represents who reported the specific account. (TU = TransUnion, EQ = Equifax, 
+EX = Experian, LN = LexisNexis).  For a full explanation of each category, see "How to read a tradeline" at the end of this report.
+Need assistance? Call us at 1-866-218-1003  (Monday - Friday, 8am - 8pm ET)Credit Report   Page 2 of 9
+© 2020 Stretto. All Rights ReservedCredit Report
+Prepared for  Sample Law Firm  
+Report Type: Sample Joint CR Report Number: 12345 Client Code: A12345 Reported Date: 03/19/20 30
+Address Variations 18 Record(s)
+Reported Address Date Reported Source Owner
+1034 N 9TH AVE, Salmon Run, CO 457881107 11/2004 EX
+870 BEAR RIDGE TR, Salmon Run, CO 45788 03/30/2009 TU
+55 PINT BV, SHELBY, OH 44875 03/08/2005 TU
+1034 N 8TH AV, Salmon Run, CO 45788 TU
+870 BEAR RIDGE TRL, Salmon Run, CO 45788 03/2020 EQ
+1004 GORDON TER, NORTH CAPE MAY, NJ 08204 12/2008 EQ
+55 PINT BLVD APT 4, SHELBY, OH 44875 06/2016 EQ
+Employment Variations 12 Record(s)
+Reported Employment Date Reported Source Owner
+MICHAELS    CRAFTS 08/2014 EX
+MICHAELS,YELLOW BAY, CO 54304 09/2013 EX
+MICHAELS PARTS 05/19/2012 TU
+MICHAELS CRAFTS,GREEN BAY, CO 08/03/2011 TU
+TARGET EQ
+Note: All information in this report sample is fictitious and used for example purposes only. Source represents who reported the specific account. (TU = TransUnion, EQ = Equifax, 
+EX = Experian, LN = LexisNexis).  For a full explanation of each category, see "How to read a tradeline" at the end of this report.
+Need assistance? Call us at 1-866-218-1003  (Monday - Friday, 8am - 8pm ET)Credit Report   Page 3 of 9
+© 2020 Stretto. All Rights ReservedCredit Report
+Prepared for  Sample Law Firm  
+Report Type: Sample Joint CR Report Number: 12345 Client Code: A12345 Reported Date: 03/19/20 30
+Employment Variations 12 Record(s)
+Reported Employment Date Reported Source Owner
+OFFICE MAX EQ
+AARON RENTS EQ
+DOOM HOUSE,Salmon Run CO 45788, 11/2017 EX
+WORK 10/2017 EX
+HATCO CORPORATION 01/01/2020 TU
+SUNSHINE HOUSE INC 05/18/2012 TU
+THE ABBY EQ
+8-Year Supplemental National Bankruptcy Search ²0 Record(s)
+Court Disposition Date Filed Obligation Type Docket Plaintiff Source Owner
+Liens and Judgments Search ²0 Record(s)
+Court Disposition Date Filed Obligation Type Docket Plaintiff Defendant Source Owner
+Public Records Search ³0 Record(s)
+Court Disposition Date Filed Obligation Type Docket Plaintiff Defendant Source Owner
+Note: All information in this report sample is fictitious and used for example purposes only. Source represents who reported the specific account. (TU = TransUnion, EQ = Equifax, 
+EX = Experian, LN = LexisNexis).  For a full explanation of each category, see "How to read a tradeline" at the end of this report.
+Need assistance? Call us at 1-866-218-1003  (Monday - Friday, 8am - 8pm ET)Credit Report   Page 4 of 9
+© 2020 Stretto. All Rights ReservedCredit Report
+Prepared for  Sample Law Firm  
+Report Type: Sample Joint CR Report Number: 12345 Client Code: A12345 Reported Date: 03/19/20 30
+Non-Mortgage Liabilities with Balances37 Record(s)
+Account Details Balance Details Account Dates Payment Details Bankruptcy-Specific Address Bureau Reported Address Owner & Source
+Name: Capital One, N.a.
+Type: Individual / Applicant
+Account: XXXXXXXXXXX4645
+Status: Open, Current Account
+Revolving, Credit CardTerm: N/ACurrent:
+$8,060
+High Credit:
+$8,198Date Opened:
+06/2015
+Last Reported:
+03/04/2020
+Last Activity:
+03/2020Monthly:
+$264
+Past Due:
+$0
+Pay History:
+CCCCCCC1CCCCPo Box 30253
+Salt Lake City, UT 84130
+TU, EX, EQ
+Name: Barclays Bank Delaware
+Type: Individual / Applicant
+Account: XXXXXXXXXXX8329
+Status: Closed, Account Closed By 
+Grantor
+Revolving, Credit CardTerm: N/ACurrent:
+$7,550
+High Credit:
+$9,710Date Opened:
+09/2014
+Last Reported:
+02/17/2020
+Last Activity:
+02/13/2020Monthly:
+$185
+Past Due:
+$0
+Pay History:
+CCCCCCCCC111P.o. Box 8803
+Colmington, DE 19899
+866-370-5931
+TU, EX, EQ
+Name: Capital One Bank Usa N
+Type: Individual / Co-Applicant
+Account: XXXXXXXXXX7232
+Status: Closed, Account Closed By 
+Grantor
+Revolving, Credit CardTerm: N/ACurrent:
+$6,134
+High Credit:
+$6,134Date Opened:
+12/2012
+Last Reported:
+02/21/2020
+Last Activity:
+06/07/2019Monthly:
+$185
+Past Due:
+$6,134
+Pay History:
+999999954321123 sesane st
+vandalia, OH 45377
+937-555-5555
+Verified:
+10/2015Cap One Po Box 30281
+Salt Lake City, UT 84130
+800-955-7070
+TU, EX, EQ
+Name: Barclays Bank Delaware
+Type: Individual / Co-Applicant
+Account: XXXXXXXXXX7423
+Status: Closed, Account Closed By 
+Grantor
+Revolving, Credit CardTerm: N/ACurrent:
+$5,359
+High Credit:
+$6,416Date Opened:
+06/2014
+Last Reported:
+02/17/2020
+Last Activity:
+02/13/2020Monthly:
+$129
+Past Due:
+$0
+Pay History:
+CCCCCCCC2221P.o. Box 8803
+Colmington, DE 19899
+866-370-5931
+TU, EX, EQ
+Name: Comenitybank/caesars
+Type: Individual / Applicant
+Account: XXXXXXXXXX3542
+Status: Open, Current Account
+Revolving, Credit CardTerm: N/ACurrent:
+$4,129
+High Credit:
+$4,202Date Opened:
+08/2017
+Last Reported:
+02/15/2020
+Last Activity:
+02/2020Monthly:
+$121
+Past Due:
+$0
+Pay History:
+CCCCCCCCCCCCPo Box 182789
+Columbus, OH 43218
+TU, EX, EQ
+Note: All information in this report sample is fictitious and used for example purposes only. Source represents who reported the specific account. (TU = TransUnion, EQ = Equifax, 
+EX = Experian, LN = LexisNexis).  For a full explanation of each category, see "How to read a tradeline" at the end of this report.
+Need assistance? Call us at 1-866-218-1003  (Monday - Friday, 8am - 8pm ET)Credit Report   Page 5 of 9
+© 2020 Stretto. All Rights ReservedCredit Report
+Prepared for  Sample Law Firm  
+Report Type: Sample Joint CR Report Number: 12345 Client Code: A12345 Reported Date: 03/19/20 30
+Liabilities without Balances30 Record(s)
+Account Details Balance Details Account Dates Payment Details Bankruptcy-Specific Address Bureau Reported Address Owner & Source
+Name: Ally Financial
+Type: Joint Contractual Liability / 
+Joint
+Account: XXXXXX3823
+Status: Closed, Account Closed
+Installment, AutomobileTerm: 39 MonthsCurrent:
+$0
+High Credit:
+$12,295Date Opened:
+02/2014
+Last Reported:
+06/2017
+Last Activity:
+03/2017Monthly:
+$0
+Past Due:
+$0
+Pay History:
+--CCCCCCCCCCP.o. Box 380901
+Bloomington, MN 55438
+TU, EX, EQ
+TU, EX, EQ
+Name: Onemain
+Type: Joint Contractual Liability / 
+Joint
+Account: XXXXXXXX6164
+Status: Closed, Account Closed
+Installment, SecuredTerm: 48 MonthsCurrent:
+$0
+High Credit:
+$7,404Date Opened:
+08/2014
+Last Reported:
+01/2017
+Last Activity:
+01/2017Monthly:
+$0
+Past Due:
+$0
+Pay History:
+CCCCCCCCCCCCPo Box 1010
+Evansville, IN 47706
+TU, EX, EQ
+TU, EX, EQ
+Name: Springleaf Financial S
+Type: Joint Contractual Liability / 
+Joint
+Account: XXXXXXXXXXX9823
+Status: Closed, ACCOUNT 
+TRANSFERRED
+Installment, SecuredTerm: 36 MonthsCurrent:
+$0
+High Credit:
+$6,064Date Opened:
+10/2013
+Last Reported:
+12/2013
+Last Activity:
+11/2013Monthly:
+$0
+Past Due:
+$0
+Pay History:
+CC1780 W Mason St.
+Green Bay, CO 54303
+TU, EX, EQ
+TU, EX, EQ
+Name: Springleaf Financial S
+Type: Joint Contractual Liability / 
+Joint
+Account: XXXXXXX0384
+Status: Closed, ACCOUNT 
+TRANSFERRED
+Installment, SecuredTerm: 36 MonthsCurrent:
+$0
+High Credit:
+$6,056Date Opened:
+12/2013
+Last Reported:
+08/2014
+Last Activity:
+05/2014Monthly:
+$0
+Past Due:
+$0
+Pay History:
+CCCCCCCC1780 W Mason St.
+Green Bay, CO 54303
+TU, EX, EQ
+TU, EX, EQ
+Name: Springleaf Financial S
+Type: Joint Contractual Liability / 
+Joint
+Account: XXXXXXX8943
+Status: Closed, ACCOUNT 
+TRANSFERRED
+Installment, AutomobileTerm: 36 MonthsCurrent:
+$0
+High Credit:
+$5,692Date Opened:
+09/2012
+Last Reported:
+10/2013
+Last Activity:
+09/2013Monthly:
+$0
+Past Due:
+$0
+Pay History:
+CCCCCCCCCCCC1780 W Mason St.
+Green Bay, CO 54303
+TU, EX, EQ
+TU, EX, EQ
+Note: All information in this report sample is fictitious and used for example purposes only. Source represents who reported the specific account. (TU = TransUnion, EQ = Equifax, 
+EX = Experian, LN = LexisNexis).  For a full explanation of each category, see "How to read a tradeline" at the end of this report.
+Need assistance? Call us at 1-866-218-1003  (Monday - Friday, 8am - 8pm ET)Credit Report  Page 6 of 9
+© 2020 Stretto. All Rights ReservedCredit Report
+Prepared for  Sample Law Firm  
+Report Type: Sample Joint CR Report Number: 12345 Client Code: A12345 Reported Date: 03/19/20 30
+How to read a tradeline
+Note: The Information on this tradeline is ficticious and used for example purposes only.
+1. Account Details:
+The Name  field is the creditor's name as reported by the national credit bureaus.  Ownership  Type  displays if the account is individual or joint, as well as the
+debtors relationship to the liability.  Account  contains the actual account number reported for the tradeline, hashed out for privacy.  Status displays the most
+current status reported by the national credit bureaus, examples include Open, Current / Open, Collection / Closed, Purchased By Another Lender.  Followed
+by the Credit Loan Type which describes the nature of the loan.  For a collection account, when the creditor provides original creditor information to the
+national credit bureaus, it will be listed in this section under Original Creditor .
+2. Balance Details:
+The last reported balance provided to the national credit bureaus will be displayed as Current .  High Credit  is the highest balance ever reported throughout
+the tradeline's lifetime.
+3. Account Dates:
+Date Opened  is the date the account was opened.  Last Reported  is the date the tradeline was last reported to the bureaus.  Last Activity  is the last time any 
+activity occurred on the account.  That activity covers a wide range and includes transactions, payments, and disputes.
+4. Payment Details:
+The expected regular payment due each month is listed as Monthly .  Past Due  is the amount the tradeline is past due as of the last reported date.  Pay
+History  displays the monthly payment history for that account.  The number of months may vary from tradeline to tradeline.  Each month is represented by a
+letter or number.  The far left digit represents the most current reported month.  C = Paid as agreed, 1 = 30 days past due, 2 = 60 days past due, 3 = 90  days
+past due, 4 = 120 days past due, 5 = 150 days past due, 6 = 180 days past due, 8 = Repossession, 9 = Collection, - = No history.
+5. Bankruptcy-Specific Address:
+Creditor contact address obtained by CIN Legal Data Services through telephone contact with creditor.  “Verified ” indicates the month and year CIN last
+updated the address. Please note, BAPCPA language regarding the noticing of creditors may dictate the use of a different address.  CIN MAKES NO
+GUARANTEE OR WARRANTY REGARDING THE ACCURACY OF THE BANKRUPTCY SPECIFIC ADDRESSES OR THEIR FITNESS FOR ANY
+PARTICULAR USE.
+6. National Credit Bureau Reported Address:
+Creditor contact address provided by the national credit bureaus. Please note, BAPCPA language regarding the noticing of creditors may dictate the use of
+a different address.
+7. Owner* & Source:
+Owner  is populated with the responsible party reported by the bureau for each tradeline.  Source is the bureau that has provided CIN Legal Data Services
+with information for the tradeline, abbreviated as follows: TU = TransUnion, EQ = Equifax, EX = Experian).  If supplemental information was provided by
+LexisNexis, it will be also be listed in the Source field abbreviated as LN.
+* Owner only applies to Joint reports
+CREDIT REPORT NOTICES AND DISCLOSURES:
+The Fair Credit Reporting Act (“FCRA ”, codified at 15 U.S.C. §1681 et. seq.) places no restrictions on how a consumer may utilize or share his/her own credit 
+report that is ordered at his/her written instructions. In addition, the FCRA provides that anyone who knowingly and willfully obtains information under false 
+pretenses shall be fined under Title 18, or imprisoned for not more than one year, or both.
+Note: All information in this report sample is fictitious and used for example purposes only. Source represents who reported the specific account. (TU = TransUnion, EQ = Equifax, 
+EX = Experian, LN = LexisNexis).  For a full explanation of each category, see "How to read a tradeline" at the end of this report.
+Need assistance? Call us at 1-866-218-1003  (Monday - Friday, 8am - 8pm ET)Credit Report  Page 7 of 9
+© 2020 Stretto. All Rights ReservedCredit Report
+Prepared for  Sample Law Firm  
+Report Type: Sample Joint CR Report Number: 12345 Client Code: A12345 Reported Date: 03/19/20 30
+CREDIT INFONET, INC. D/B/A CIN LEGAL DATA SERVICES (“CIN”) IS PROVIDING THIS CREDIT REPORT PRODUCT AND ALL OF 
+THE DATA CONTAINED THEREIN “AS IS ” AND “WITH ALL FAULTS AND DEFECTS ”.  CIN MAKES NO REPRESENTATIONS THAT 
+THIS PRODUCT IS ERROR-FREE, ACCURATE, COMPLETE OR FIT FOR ANY PARTICULAR PURPOSE.  EXCEPT TO THE EXTENT 
+PROHIBITED BY LAW, CIN AND ITS AFFILIATES AND LICENSORS DISCLAIM ALL WARRANTIES IN REGARD TO THIS CREDIT 
+REPORT PRODUCT AND ALL OF THE DATA CONTAINED THEREIN, INCLUDING ANY IMPLIED WARRANTIES OF 
+MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR ACCURACY OF 
+INFORMATIONAL CONTENT, AND ANY WARRANTIES ARISING OUT OF ANY COURSE OF DEALING OR USAGE OF TRADE. 
+TO DISPUTE INFORMATION APPEARING IN THIS REPORT :  Send the following information by email to consumer@cingroup.com  or by postal mail to CIN 
+Legal Data Services, ATTN:  Consumer Disputes, 4540 Honeywell Court, Dayton, Ohio 45424 : 1. Your complete name, address, and telephone number.  2.
+ The “Report Number ” and “Reported Date ” located at the top right corner of the first page of the credit report.  3. The name and account number for any creditor 
+whose data you are disputing.  Explain why you feel the creditor ’s information is incorrect.  4. A request that the information you are disputing be removed or 
+corrected.  5. Copies (not originals) of any documents that support your position.  Within 5 days of receiving your dispute, CIN Legal Data Services
+ (“CIN ”) will 
+investigate the dispute and will notify all of the three nationwide credit reporting agencies (Experian, TransUnion and Equifax) that are reporting the disputed
+ 
+information.  The credit reporting agencies have 30 days in which to investigate your dispute and send their investigation results to CIN.  CIN will mail you a 
+copy of each credit reporting agencies ’ investigation results within 1 business day of receiving the same from the agencies.
+TIME LIMIT ON DATA IMPORT:   Data from this credit report can be imported into participating bankruptcy forms preparation software products for thirty (30) 
+days from the Reported Date as shown in the Report header of each page. After thirty (30) days, the import function will no longer be available for this credit 
+report.
+ENDNOTES:
+    ¹
+The Credit Score Analysis, powered by CreditXpert, simulates changes to the credit file to calculate the potential score impact of a Chapter 7 bankruptcy 
+filing. It simulates filing the Chapter 7 bankruptcy immediately, followed 3 months later by discharge of all debt other than student loans and mortgages. It also 
+simulates opening a revolving credit card with a $500 credit limit 2 months after discharge, and then maintaining a balance of $300 on that card for 10 months. 
+The final score is calculated 15 months from now (one year after the bankruptcy discharge). myHorizon assumes that monthly payments will be made on time 
+for mortgages and student loans, and that zero-balance credit accounts will be closed by creditors at the time of discharge. Accounts last reported 4 or more
+ 
+months ago are not included in the bankruptcy filing unless they are derogatory accounts.  CreditXpert@ products are based on information derived from credit 
+reports produced by the major credit reporting agencies. CreditXpert Inc. is not responsible for inaccurate results, including any due to incorrect, missing, 
+outdated credit report information or incorrect assumptions about the future. Scores and score changes predicted by CreditXpert products are only estimates
+ 
+and are not guaranteed. CreditXpert Inc. does not represent that CreditXpert Credit Scores(tm) are identical or similar to credit scores produced by any other 
+company. CreditXpert Inc. is not associated with Fair Isaac Corporation. CreditXpert Inc. is not a credit counseling or a credit repair organization. The foregoing 
+is not intended to provide or imply warranties of any kind. CreditXpert products are provided on an "as is" basis, and CreditXpert Inc. and its distributors 
+disclaim any and all warranties, either express or implied, including but not limited to any warranty of merchantability, fitness for a particular purpose, non-
+infringement, system integration, non-interference and/or accuracy of informational content.  Copyright 2000-2018 CreditXpert Inc. All rights reserved. 
+CreditXpert@ is a registered trademark of CreditXpert Inc. The CreditXpert logo is a trademark of CreditXpert Inc.
+   ² Content appearing in the “8-Year Supplemental National Bankruptcy Search ” and the “
+Liens/Judgments Search ” sections are not provided by "Consumer 
+Reporting Agencies" as that term is defined in the FCRA.
+   ³ Judgments, liens and other public records appearing in the “Public Records” section are being reported by the national credit bureaus accessed in 
+compiling this credit report.
+DISCLOSURES FROM CIN AND EXPERIAN:  The Fair Credit Reporting Act allows you to obtain a disclosure from every credit reporting agency of the 
+nature and substance of all information in your file at the time of the request. Full disclosure of information in your file at Experian must be obtained directly from 
+Experian by calling 888-397-3742 or logging on to www.experian.com/consumer .  This credit report you are receiving  from CIN is not intended to constitute 
+the disclosure of Experian information required by the Fair Credit Reporting Act or similar state laws. You are entitled to receive a disclosure directly from the 
+consumer reporting agency free of charge under the following circumstances: a. You have been denied credit, insurance or employment within the past sixty 
+(60) days as a result of your credit report; b. You certify in writing that you are unemployed and intend to apply for employment in the 60-day period beginning
+on the date on which you made the certification; c. You are a recipient of public welfare assistance; d. You have reason to believe that your file at the agency
+contains inaccurate information due to fraud; and e. annually at www.annualcreditreport.com .  Otherwise, the consumer reporting agency may impose a
+reasonable charge for the disclosure.  The Fair Credit Reporting Act permits you to dispute inaccurate or incomplete information in your credit file.  You
+understand that accurate information cannot be changed.  You do not have to purchase your credit report or other information from CIN to dispute inaccurate or
+incomplete information in your Experian file or to receive a copy of my Experian consumer credit report.  Experian ’s National Consumer Assistance Center
+provides a proprietary consumer disclosure that is different from the consumer credit report provided by CIN.  The disclosure report must be obtained directly
+from Experian.  Consumers residing in the States of Colorado, Massachusetts, Maryland, New Jersey, and Vermont may receive a free copy of their consumer
+credit report once per year and residents of the State of Georgia may receive two copies per year.   Fraud Alerts are available to any eligible consumers —free of
+charge —from a national consumer reporting agency.
+Need assistance? Call us at 1-866-218-1003  (Monday - Friday, 8am - 8pm ET)Credit Report   Page 8 of 9
+© 2020 Stretto. All Rights ReservedCredit Report
+Prepared for  Sample Law Firm  
+Report Type: Sample Joint CR Report Number: 12345 Client Code: A12345 Reported Date: 03/19/20 30
+STATE LAW NOTICES.  You may be entitled to additional fair credit reporting rights under State Law.  You may visit www.cingroup.com/legal/fcra  for a 
+listing of States ’ Notices of Consumers ’ Rights.
+FEDERAL FCRA NOTICE.  Para información en español, visite www.consumerfinance.gov/learnmore o escribe a la Consumer Financial Protection Bureau, 
+1700 G Street N.W., Washington DC 20552.
+A Summary of Your Rights under the Fair Credit Reporting Act
+The federal Fair Credit Reporting Act (FCRA) promotes the accuracy, fairness, and privacy of information in the files of consumer reporting agencies. There are 
+many types of consumer reporting agencies, including credit bureaus and specialty agencies (such as agencies that sell information about check writing 
+histories, medical records, and rental history records). Here is a summary of your major rights under the FCRA. For more information, including information about 
+additional rights, go to www.consumerfinance.gov/learnmore  or write to: Consumer Financial Protection Bureau, 1700 G Street N.W., Washington, DC 20552.
+●You must be told if information in your file has been used against you. Anyone who uses a credit report or another type of consumer report to deny your
+application for credit, insurance, or employment - or to take another adverse action against you - must tell you, and must give you the name, address, and phone
+number of the agency that provided the information.
+●You have the right to know what is in your file. You may request and obtain all the information about you in the files of a consumer reporting agency (your “file
+disclosure”). You will be required to provide proper identification, which may include your Social Security number. In many cases, the disclosure will be free. You
+are entitled to a free file disclosure if:   ●a person has taken adverse action against you because of information in your credit report;  ● you are the victim of
+identity theft and place a fraud alert in your file; ●your file contains inaccurate information as a result of fraud; ●you are on public assistance; and/or ●you are
+unemployed but expect to apply for employment within 60 days.
+●In addition, all consumers are entitled to one free disclosure every 12 months upon request from each nationwide credit bureau and from nationwide specialty
+consumer reporting agencies. See www.consumerfinance.gov/learnmore  for additional information.
+●You have the right to ask for a credit score. Credit scores are numerical summaries of your credit-worthiness based on information from credit bureaus. You
+may request a credit score from consumer reporting agencies that create scores or distribute scores used in residential real property loans, but you will have to
+pay for it. In some mortgage transactions, you will receive credit score information for free from the mortgage lender. 
+●You have the right to dispute incomplete or inaccurate information. If you identify information in your file that is incomplete or inaccurate, and report it to the
+consumer reporting agency, the agency must investigate unless your dispute is frivolous. See www.consumerfinance.gov/learnmore  for an explanation of
+dispute procedures.
+●Consumer reporting agencies must correct or delete inaccurate, incomplete, or unverifiable information. Inaccurate, incomplete or unverifiable information must
+be removed or corrected, usually within 30 days. However, a consumer reporting agency may continue to report information it has verified as accurate.
+●Consumer reporting agencies may not report outdated negative information. In most cases, a consumer reporting agency may not report negative information
+that is more than seven years old, or bankruptcies that are more than 10 years old. 
+●Access to your file is limited. A consumer reporting agency may provide information about you only to people with a valid need -- usually to consider an
+application with a creditor, insurer, employer, landlord, or other business. The FCRA specifies those with a valid need for access.
+●You must give your consent for reports to be provided to employers. A consumer reporting agency may not give out information about you to your employer, or
+a potential employer, without your written consent given to the employer. Written consent generally is not required in the trucking industry. For more information,
+go to www.consumerfinance.gov/learnmore .
+●You may limit "prescreened" offers of credit and insurance you get based on information in your credit report. Unsolicited "prescreened" offers for credit and
+insurance must include a toll-free phone number you can call if you choose to remove your name and address from the lists these offers are based on. You may
+opt-out with the nationwide credit bureaus at 1-888-567-8688.
+●You may seek damages from violators. If a consumer reporting agency, or, in some cases, a user of consumer reports or a furnisher of information to a
+consumer reporting agency violates the FCRA, you may be able to sue in state or federal court.
+●Identity theft victims and active duty military personnel have additional rights. For more information, visit www.consumerfinance.gov/learnmore .
+●States may enforce the FCRA, and many states have their own consumer reporting laws. In some cases, you may have more rights under state law. For more
+information, contact your state or local consumer protection agency or your state Attorney General.
+●For Information about your Federal rights contact:
+1.a. Banks, savings associations, and credit unions with total assets of over $10 billion and their affiliates: Consumer Financial Protection Bureau, 1700 G Street
+NW, Washington, DC 20552; b. Such affiliates that are not banks, savings associations, or credit unions also should list, in addition to the CFPB: Federal Trade
+Commission: Consumer Response Center – FCRA, Washington, DC 20580, (877) 382-4357.
+2. To the extent not included in item 1 above:  a. National banks, federal savings associations and federal branches and federal agencies of foreign banks: Office
+of the Comptroller of the Currency, Customer Assistance Group, 1301 McKinney Street, Suite 3450, Houston, TX 77010-9050; b. State member banks, branches 
+and agencies of foreign banks (other than federal branches, federal agencies and Insured State Branches of Foreign Banks), commercial lending companies 
+owned or controlled by foreign banks, and organizations operating under section 25 or 25A of the Federal Reserve Act:  Federal Reserve Consumer Help 
+Center, PO Box 1200,Minneapolis, MN 55480; c. Nonmember Insured Banks, Insured State Branches of Foreign Banks, and insured state savings associations: 
+FDIC Consumer Response Center, 1100 Walnut St., Box #11,Kansas City, MO 64106; d. Federal Credit Unions: National Credit Union Administration, Office of 
+Consumer Protection (OCP), Division of Consumer Compliance and Outreach (DCCO), 1775 Duke Street, Alexandria, VA 22314.
+3.Air carriers: Asst. General Counsel for Aviation Enforcement & Proceedings, Aviation Consumer Protection Division, Department of Transportation, 1200 New
+Jersey Avenue, S.E., Washington, DC 20590.
+4.Creditors Subject to Surface Transportation Board: Office of Proceedings, Surface Transportation Board, Department of Transportation 395 E Street, S.W.,
+Washington, DC 20423.
+5.
+Creditors Subject to Packers and Stockyards Act, 1921: Nearest Packers and Stockyards Administration area Supervisor.
+6.Small Business Investment Companies: Associate Deputy Administrator for Capital Access, United States Small Business Administration, 409 Third Street,
+SW, 8th Floor, Washington, DC 20416.
+Need assistance? Call us at 1-866-218-1003  (Monday - Friday, 8am - 8pm ET)Credit Report  Page 9 of 9
+© 2020 Stretto. All Rights Reserved7.Brokers and Dealers: Securities and Exchange Commission, 100 F Street, N.E., Washington, DC 20549.
+8.Federal Land Banks, Federal Land Bank Associations, Federal Intermediate Credit Banks and Production Credit Associations: Farm Credit Administration,
+1501 Farm Credit Drive, McLean, VA 22102-5090.
+9.Retailers, Finance Companies, and All Other Creditors Not Listed Above: FTC Regional Office for region in which the creditor operates or Federal Trade
+Commission: Consumer Response Center – FCRA, Washington, DC 20580, (877) 382-4357.Credit Report
+Prepared for  Sample Law Firm  
+Report Type: Sample Joint CR Report Number: 12345 Client Code: A12345 Reported Date: 03/19/20 30
+[00m
+
+
+[1m[95m# Agent:[00m [1m[92mSenior Credit Analyst[00m
+[95m## Final Answer:[00m [92m
+Based on the comprehensive analysis of the provided credit report, here are the key factors that will be crucial in deciding whether to approve or deny a loan application:
+
+1. Credit Scores:
+- Sam Sample: Current score 560, potential post-bankruptcy score 630 (+60)
+- Pat Sample: Current score 680, potential post-bankruptcy score 725 (+45)
+The current scores, especially Sam's, are low and indicate high credit risk. However, the potential for improvement post-bankruptcy is significant.
+
+2. Summary of Accounts with Balances:
+- Total accounts: 37
+- Total monthly payments: $5,002
+- Total balances remaining: $83,864
+- Past due accounts: 14 (37.84% of total accounts)
+- Total amounts past due: $21,180
+These figures show a high debt load and a significant portion of accounts being past due, indicating financial distress.
+
+3. Account Types and Status:
+- Collection accounts: 3 (100% past due, total $6,899)
+- Installment accounts: 10 (20% past due, total balance $17,673)
+- Revolving accounts: 24 (37.50% past due, total balance $59,292)
+The high number of past due accounts, especially in revolving credit, is concerning.
+
+4. Payment History:
+Multiple accounts show a history of late payments, with some accounts having severe delinquencies (90+ days late).
+
+5. High Credit Utilization:
+Several credit card accounts are near or at their limits, indicating high credit utilization.
+
+6. Recent Account Closures:
+Multiple accounts have been closed recently, some by the creditor, which may indicate financial difficulties or creditor concerns.
+
+7. Employment Stability:
+Multiple employment variations listed, which could indicate frequent job changes or unstable income.
+
+8. Potential Bankruptcy:
+The credit score analysis includes potential post-bankruptcy scores, suggesting bankruptcy might be under consideration.
+
+9. Absence of Public Records:
+No bankruptcies, liens, or judgments are reported, which is a positive factor.
+
+10. Length of Credit History:
+Some accounts date back to 2012-2014, indicating a relatively established credit history.
+
+These factors paint a picture of significant financial distress, with high debt loads, multiple past due accounts, and low credit scores. The potential for score improvement post-bankruptcy suggests that this might be under consideration. Any loan approval decision would need to carefully weigh these negative factors against any positive aspects of the applicant's financial situation not reflected in this credit report.[00m
+
+
+[1m[95m# Agent:[00m [1m[92mSenior Loan Officer[00m
+[95m## Task:[00m [92mBased on the key factors from the risk agent, write a concise and precise credit decision report. The report should include an overall creditworthiness assessment, identify potential risk factors, and provide a clear recommendation.
+[00m
+
+
+[1m[95m# Agent:[00m [1m[92mSenior Loan Officer[00m
+[95m## Final Answer:[00m [92m
+Credit Decision Report
+
+Applicants: Sam Sample and Pat Sample
+Date: [Current Date]
+
+Overall Creditworthiness Assessment:
+Based on the comprehensive analysis of the provided credit report, the applicants' current creditworthiness is assessed as poor, with significant financial distress evident.
+
+Key Risk Factors:
+1. Low Credit Scores: Sam (560) and Pat (680) have scores indicating high credit risk.
+2. High Debt Load: 37 total accounts with $83,864 total balances and $5,002 monthly payments.
+3. Delinquency: 37.84% of accounts (14 out of 37) are past due, totaling $21,180.
+4. Collection Accounts: 3 accounts in collections, totaling $6,899.
+5. Payment History: Multiple accounts show late payments, some with severe delinquencies.
+6. High Credit Utilization: Several credit cards near or at limits.
+7. Recent Account Closures: Multiple accounts closed recently, some by creditors.
+8. Employment Stability: Multiple employment variations listed.
+
+Positive Factors:
+1. No public records (bankruptcies, liens, or judgments) reported.
+2. Established credit history dating back to 2012-2014.
+3. Potential for credit score improvement post-bankruptcy (Sam: +60, Pat: +45).
+
+Recommendation:
+Given the significant financial distress evident in the credit report, including low credit scores, high delinquency rates, and substantial debt load, we cannot recommend approval for a loan at this time. The risks associated with lending to these applicants are currently too high.
+
+However, we note the potential for credit score improvement, possibly through bankruptcy. We recommend the applicants take steps to improve their financial situation, such as:
+1. Addressing past due accounts and collections
+2. Reducing overall debt load
+3. Improving payment history on existing accounts
+4. Seeking credit counseling or considering bankruptcy if appropriate
+
+The applicants may reapply after demonstrating significant improvement in their credit profile and financial stability over time.[00m
+
+
